@@ -48,3 +48,48 @@ cc.director.preloadScene('场景名称');
 This.node.on(xx,xx)
 ```
 
+## 监听语法
+
+### cc.eventManager.addListener(listener,nodeOrPriority)
+
+将事件监听器添加到事件管理器中
+
+### cc.EventListener.KEYBORAD
+
+键盘输入事件
+
+### cc.EventListener.MOUSE
+
+鼠标
+
+### cc.EventListener.TOUCH_ONE_BY_ONE
+
+单点触摸
+
+### cc.EventListener.TOUCH_ALL_AT_ONCE
+
+多点触摸
+
+## 案例
+
+### 金元宝相关语法
+
+#### Math.random
+
+生成0和1之间的随机数
+
+#### cc.instantiate(node)
+
+复制节点
+
+#### component.schedule(function(){},5,3,10)
+
+计时器-重复间隔-重复次数-延时
+
+#### scheduleOnce
+
+开始一个只执行一次的计时器
+
+#### unschedule
+
+取消一个计时器
