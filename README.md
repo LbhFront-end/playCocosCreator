@@ -2,6 +2,10 @@
 
 [下载地址](http://www.cocos.com/download)
 
+
+
+## 编辑器界面
+
 ### 资源管理器
 
 新建文件结构，资源排版处理
@@ -25,3 +29,20 @@
 ### 控制台
 
 显示编辑信息的地方
+
+## Scene介绍
+
+### Scene
+
+Scene是ccc中必不可以少的元素，游戏中需要构建不同的场景，游戏里关卡，板块切换就是一个个场景之间的切换
+
+### Director
+
+Director是整个ccc的核心，是整个游戏的导航仪。游戏中的一些常用的操作就是由Director来控制的。初始化，场景切换，游戏暂停继续
+
+```
+cc.director.loadScene('场景名称');
+cc.director.preloadScene('场景名称');
+This.node.on(xx,xx)
+```
+
